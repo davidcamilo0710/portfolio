@@ -11,14 +11,14 @@ function DegreeCard(props) {
     width: "220px",
     height: "auto",
     borderRadius: " 50%",
-    padding: "10px",
-    border: `1px solid ${theme.accentColor}`,
+    padding: "0.1px",
+    border: `1px solid ${theme.text}`,
     marginRight: "50px",
-    boxShadow: `0px 0px 5px ${theme.accentColor}`,
+    boxShadow: `0px 0px 2px ${theme.text}`,
     transition: "all 0.2s ease-in-out",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 5px 15px ${theme.accentColor}`,
+      boxShadow: `0 2px 10px ${theme.text}`,
     },
     "@media (max-width: 768px)": {
       marginLeft: "50px",
@@ -28,17 +28,15 @@ function DegreeCard(props) {
   });
 
   const card_body = style({
-    borderBottom: `1px solid ${theme.accentColor}`,
-    borderLeft: `1px solid ${theme.accentColor}`,
-    borderRight: `1px solid ${theme.accentColor}`,
+    border: `1px solid ${theme.text}`,
     borderRadius: "7px",
     width: "90%",
     margin: "10px",
-    boxShadow: `0px 1px 5px ${theme.accentColor}`,
+    boxShadow: `0px 0px 1px ${theme.text}`,
     transition: "all 0.2s ease-in-out",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 5px 15px ${theme.accentColor}`,
+      boxShadow: `0 2px 10px ${theme.text}`,
     },
     "@media (max-width: 768px)": {
       width: "100%",
@@ -63,7 +61,7 @@ function DegreeCard(props) {
     cursor: "pointer",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 5px 10px ${theme.accentColor}`,
+      boxShadow: `0 2px 10px ${theme.accentColor}`,
     },
   });
 
@@ -75,7 +73,7 @@ function DegreeCard(props) {
             style={{
               maxWidth: "100%",
               maxHeight: "100%",
-              transform: "scale(-80%, -80%)",
+              transform: "scale(50%, 50%)",
             }}
             src={require(`../../assests/images/${degree.logo_path}`)}
             alt={degree.alt_name}
@@ -86,32 +84,30 @@ function DegreeCard(props) {
         <div {...card_body}>
           <div
             className="body-header"
-            style={{ backgroundColor: theme.accentColor }}
+            // style={{ backgroundColor: theme.accentColor }}
           >
             <div className="body-header-title">
-              <h2 className="card-title" style={{ color: "#FFFFFF" }}>
-                  <a
-                    href={degree.title_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {degree.title}
-                  </a>              
+              <h2 className="card-title" style={{ color: theme.text }}>
+                {degree.title}
               </h2>
-              <h3 className="card-subtitle" style={{ color: "#FFFFFF" }}>
+              <h3 className="card-subtitle" style={{ color: theme.text }}>
                 {degree.subtitle}
               </h3>
             </div>
             <div className="body-header-duration">
-              <h3 className="duration" style={{ color: "#FFFFFF" }}>
+              <h3 className="duration" style={{ color: theme.text }}>
                 {degree.duration}
               </h3>
             </div>
           </div>
-          <div classname="body-content">
+          <div className="body-content">
             {degree.descriptions.map((sentence) => {
               return (
-                <p className="content-list" style={{ color: theme.text }}>
+                <p
+                  key={sentence}
+                  className="content-list"
+                  style={{ color: theme.text }}
+                >
                   {sentence}
                 </p>
               );
@@ -126,13 +122,12 @@ function DegreeCard(props) {
                 {...button_visit}
                 style={{
                   marginRight: "23px",
-                  marginTop: "1px",
                   textDecoration: "none",
                   float: "right",
                   backgroundColor: theme.accentColor,
                 }}
               >
-                Publication
+                Visit Website
               </p>
             </a>
           </div>

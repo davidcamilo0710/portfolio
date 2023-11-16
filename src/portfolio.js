@@ -4,19 +4,19 @@
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "",
+  googleTrackingID: "G-CK9SGDR71W",
 };
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
+  title: "Hello.",
   title2: "David M.G.",
-  logo_name: "< david.mg() />",
+  logo_name: "david.mg()",
   full_name: "David Muñoz G",
   subTitle:
-    "Data Scientist, Back-End Developer, Open Source Enthusiast, and Life Long Learner.",
+    "Data Scientist, Back-end Developer, and Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/1G35vr0A7eVH7pC2s4tvUbbYq1OVyuYxO/view?usp=sharing",
+    "https://drive.google.com/file/d/1o6CB2QBsIwBmoKDO1gTyock_rU1k23nN/view?usp=sharing",
   mail: "mailto:im.davidcamilo0710@gmail.com",
 };
 
@@ -35,9 +35,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Turning dirty and unstructured data from different source into ready to use data for analytics and data science",
+        "⚡ Turning dirty and unstructured data into ready to use data for analytics",
         "⚡ Extract insights and automate intelligent decision-making from business data, and other available sources",
-        "⚡ Creating dashboards and visualizations to present data in a clear and understandable way",
+        "⚡ Creating dynamic dashboards, insightful reports, and compelling visualizations using Power BI, Looker Studio, and Tableau",
         "⚡ Building Machine Learning and Deep Learning models for different use cases",
       ],
       softwareSkills: [
@@ -50,7 +50,7 @@ const skills = {
         },
         {
           skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          fontAwesomeClassname: "devicon:keras",
           style: {
             backgroundColor: "white",
             color: "#D00000",
@@ -72,7 +72,7 @@ const skills = {
         //},
         {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
+          fontAwesomeClassname: "logos:python",
           style: {
             color: "#3776AB",
           },
@@ -112,36 +112,50 @@ const skills = {
             color: "#trasparent",
           },
         },
+        {
+          skillName: "Looker Studio",
+          fontAwesomeClassname: "logos:looker-icon",
+          style: {
+            color: "#trasparent",
+          },
+        },
       ],
     },
 
     {
-      title: "Back-End Development",
+      title: "Back-end Development",
       fileName: "FullStackImg",
       skills: [
-        // "⚡ Develop highly interactive User Interfaces and Backend for web applications",
-        "⚡ Creating application backend in Spring Boot and Django",
-        "⚡ Integration of third party services such as AWS and GCP",
-        "⚡ Building basic responsive website front-end using ReactJS",
+        "⚡ Creating application back-end in Spring Boot framework",
+        "⚡ Integration of third party services such as AWS and Azure",
+        "⚡ Designing and optimizing database schemas for improved data management and retrieval",
+        "⚡ Building basic responsive website front-end using Angular and ReactJS",
       ],
       softwareSkills: [
+        // {
+        //   skillName: "HTML5",
+        //   fontAwesomeClassname: "simple-icons:html5",
+        //   style: {
+        //     color: "#E34F26",
+        //   },
+        // },
+        // {
+        //   skillName: "CSS3",
+        //   fontAwesomeClassname: "fa-css3",
+        //   style: {
+        //     color: "#1572B6",
+        //   },
+        // },
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Java",
+          fontAwesomeClassname: "logos:java",
           style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
+            color: "#f89820",
           },
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          fontAwesomeClassname: "logos:javascript",
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
@@ -169,6 +183,13 @@ const skills = {
         //   },
         // },
         {
+          skillName: "Angular",
+          fontAwesomeClassname: "logos:angular-icon",
+          style: {
+            color: "transparent",
+          },
+        },
+        {
           skillName: "Spring",
           fontAwesomeClassname: "logos:spring",
           style: {
@@ -182,106 +203,25 @@ const skills = {
             color: "#6db33f",
           },
         },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
-          style: {
-            color: "#0c4b33",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
+        //{
+        //  skillName: "Django",
+        //  fontAwesomeClassname: "simple-icons:django",
+        //  style: {
+        //    color: "#0c4b33",
+        //  },
+        //},
         {
           skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
+          fontAwesomeClassname: "logos:linux-tux",
           style: {
             color: "#000000",
           },
         },
         {
           skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
+          fontAwesomeClassname: "logos:mysql",
           style: {
             color: "#4479A1",
-          },
-        },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
-        //{
-        //  skillName: "Angular",
-        //  fontAwesomeClassname: "logos:angular-icon",
-        //  style: {
-        //    color: "transparent",
-        //  },
-        //},
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
           },
         },
         {
@@ -298,9 +238,75 @@ const skills = {
             color: "#47A248",
           },
         },
+        // {
+        //   skillName: "jQuery",
+        //   fontAwesomeClassname: "simple-icons:jquery",
+        //   style: {
+        //     color: "#0865A6",
+        //   },
+        // },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#E94E32",
+          },
+        },
+      ],
+    },
+    {
+      title: "Cloud Infra-Architecture & DevOps",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Experience hosting and managing websites",
+        "⚡ Experience with continuous integration and continuous delivery",
+      ],
+      softwareSkills: [
+        // {
+        //   skillName: "GCP",
+        //   fontAwesomeClassname: "simple-icons:googlecloud",
+        //   style: {
+        //     color: "#4285F4",
+        //   },
+        // },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "devicon:azure",
+        },
         {
           skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          fontAwesomeClassname: "devicon:docker-wordmark",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "logos:kubernetes",
+        },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "devicon:terraform",
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "devicon:jenkins",
+        },
+        {
+          skillName: "Gitlab",
+          fontAwesomeClassname: "logos:gitlab",
+        },
+        {
+          skillName: "Airflow",
+          fontAwesomeClassname: "logos:airflow-icon",
           style: {
             color: "#1488C6",
           },
@@ -320,8 +326,8 @@ const degrees = {
       alt_name: "SSEC",
       duration: "2016 - 2022",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like Networking, Operating Systems, DBMS, Security, Data Structures and Algorithms, AI, etc.",
-        "⚡ Apart from this, I have done courses on Machine Learning, Data Science, Cloud Computing and Back-end Development.",
+        "⚡ I have studied basic software engineering subjects like Networking, Operating Systems, DB, Security, Data Structures, Algorithms, and AI.",
+        "⚡ Apart from this, I have done courses on Machine Learning, Data Science, Business Intelligence, Cloud, and Back-end Development.",
         "⚡ I received honorable mention for the high impact research project in the field of Telecommunications and Machine Learning.",
       ],
       website_link: "https://drive.google.com/file/d/1gdh4a_zAxBLw1iFQLjgpc2vQoPDseUD6/view?usp=sharing",
@@ -331,6 +337,33 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "DevOps Bootcamp",
+      subtitle: "- Christian Van Der Henst",
+      logo_path: "platzi_logo.png",
+      certificate_link:
+        "https://platzi.com/p/davidcamilo0710/ruta/8353-cloud-devops/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "#85f5c5",
+    },
+    {
+      title: "Google Kubernetes Engine",
+      subtitle: "- Christian Van Der Henst",
+      logo_path: "platzi_logo.png",
+      certificate_link:
+        "https://platzi.com/p/davidcamilo0710/curso/1365-kubernetes-xertica/diploma/detalle/",
+      alt_name: "Xertica",
+      color_code: "#85f5c5",
+    },
+    {
+      title: "DevOps with GitLab",
+      subtitle: "- Christian Van Der Henst",
+      logo_path: "platzi_logo.png",
+      certificate_link:
+        "https://platzi.com/p/davidcamilo0710/curso/1526-gitlab/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "#85f5c5",
+    },
     {
       title: "Microsoft Azure Data Engineering Associate",
       subtitle: "- Betty Vandenbosch",
@@ -467,6 +500,43 @@ const certifications = {
       color_code: "#8C151599",
     },
 
+    {
+      title: "Google Data Studio",
+      subtitle: "- Juan José Bello",
+      logo_path: "platzi_logo.png",
+      certificate_link:
+        "https://platzi.com/p/davidcamilo0710/curso/1838-data-studio/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "#85f5c5",
+    },
+    {
+      title: "Infrastructure as Code with Terraform",
+      subtitle: "- Christian Van Der Henst",
+      logo_path: "platzi_logo.png",
+      certificate_link:
+        "https://platzi.com/p/davidcamilo0710/curso/1712-devops-terraform/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "#85f5c5",
+    },
+    {
+      title: "Docker",
+      subtitle: "- Guido Vilariño",
+      logo_path: "platzi_logo.png",
+      certificate_link:
+        "https://platzi.com/p/davidcamilo0710/curso/2066-docker/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "#85f5c5",
+    },
+    {
+      title: "Git and GitHub",
+      subtitle: "- Freddy Vega",
+      logo_path: "platzi_logo.png",
+      certificate_link:
+        "https://platzi.com/p/davidcamilo0710/curso/1557-git-github/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "#85f5c5",
+    },
+
 
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
@@ -492,24 +562,34 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Data Analyst",
+          company: "Servagro LTDA",
+          company_url: "https://seguridadsvg.com/",
+          logo_path: "Servagro_logo.png",
+          duration: "Feb 2023 - Present",
+          location: "Popayán-Cauca, Colombia",
+          description: "Utilized SQL, Big Query, and Looker Studio to create dashboards and reports for all company departments (accounting, administration, oper‑ations, sales, marketing, and more), enabling effective tracking of KPIs and enhancing decision‑making. Conducted internal audits to ensure data quality and accuracy. Also, updated information and corrected errors on a large scale. Acquired and cleaned databases for advertising campaigns via SMS, WhatsApp, and email, and managed campaigns on Meta and Google. Collaborated in the implementation of a DevOps environment using Digital Ocean, Git, Jenkins, JUnit, and New Relic.",
+          color: "#4285F4",
+        },
+        {
           title: "Data scientist and web developer",
-          company: "IPS Cambio Semillero de Vida S.A.S.",
+          company: "IPS Cambio Semillero de Vida SAS",
           company_url: "https://ipscambio.com",
           logo_path: "ipscambio.png",
-          duration: "Feb 2022 - Aug 2022",
+          duration: "Feb 2022 - Oct 2022",
           location: "Popayán-Cauca, Colombia",
-          description: "Redesign and develop a website to offer the commercial services of IPS Cambio and build a strong online presence. Cleanse, visualize and analyze accounting, operations and customer data to provide recommendations that improve company profits. Create an application based on JAVA and PostgreSQL to manage (i.e., register, view, export) all company data (accounting, operations and customers) and perform accounting calculations.",
-          color: "#0071C5",
+          description: "Redesigned and developed a website to showcase IPS Cambio’s commercial services and establish a strong online presence. Coordinated and executed the migration and centralization of corporate data in SAP, covering data extraction, cleaning, data loading, and contributing to the system’s configuration and launch. Used SQL and Looker Studio to visualize and analyze accounting, operational, and customer data, providing key indicators, metrics, and strategic recommendations that optimized the company’s processes and profits.",
+          color: "#4285F4",
         },
         {
           title: "Data scientist",
-          company: "Ingetel ingenieria en telecomunicaciones S.A.S.",
+          company: "Ingetel ingenieria en telecomunicaciones SAS",
           company_url: "https://www.linkedin.com/company/ingetel/",
           logo_path: "ingetel.png",
           duration: "Jul 2020 - Nov 2021",
           location: "Cali- Valle del Cauca, Colombia",
-          description: "Design and develop different Back‐end modules of the company website using Spring Boot, AWS and MongoDB. Use Python and TableaU to analyze and visualize accounting data. Also, analyze the factors that increase the mobile antenna installation price in the different departments of Colombia. Create a supervised learning model to predict the cost of installing mobile antennas in the different departments of Colombia.",
-          color: "#ee3c26",
+          description: "Designed and developed various back‑end modules for the company’s website using Spring Boot and AWS. Used Python and Tableau to analyze and visualize accounting data. Additionally, analyzed factors contributing to the installation cost of mobile antennas in different departments of Colombia. Created a supervised learning model to predict the installation cost of mobile antennas in the departments of Colombia.",
+          color: "#4285F4",
         },
       ],
     },
@@ -524,8 +604,8 @@ const experience = {
           duration: "Oct 2021 - Jul 2022",
           location: "Popayán-Cauca, Colombia",
           description:
-            "Wrote Python scripts to create datasets from real Internet traffic measurements. Then perform an exploratory analysis of the datasets. Create an application based on Random Forest (RF) to classify Internet traffic, and employ feature engineering, Machine Learning modelling and tuning techniques. Use the P4 language to deploy the RF‐based application in the data plane of an SDN network. Also, I generated, synthesized and documented knowledge related to the new P4 programming language for the research line in advanced telecommunications services.",
-          color: "#ee3c26",
+            "Created a Python, P4, and Machine Learning‑based application to classify and route Internet traffic in real‑time on the data plane of a Telecommunications network, significantly improving its performance. Generated, documented, and published knowledge related to the new P4 programming language for the advanced telecommunications services research line.",
+          color: "#4285F4",
         },
       ],
     },
@@ -605,7 +685,7 @@ const projects = {
         },
         {
           name: "Scikit-Learn",
-          iconifyClass: "simple-icons:scikitlearn",
+          iconifyClass: "devicon:scikitlearn",
           style: {
             color: "#fb9c35",
           },
@@ -625,7 +705,7 @@ const projects = {
         },
         {
           name: "Scikit-Learn",
-          iconifyClass: "simple-icons:scikitlearn",
+          iconifyClass: "devicon:scikitlearn",
           style: {
             color: "#fb9c35",
           },
@@ -656,7 +736,7 @@ const projects = {
         },
         {
           name: "Scikit-Learn",
-          iconifyClass: "simple-icons:scikitlearn",
+          iconifyClass: "devicon:scikitlearn",
           style: {
             color: "#fb9c35",
           },
@@ -667,7 +747,7 @@ const projects = {
         },
         {
           name: "Selenium",
-          iconifyClass: "logos:selenium",
+          iconifyClass: "skill-icons:selenium",
         },
       ],
     },
@@ -795,7 +875,7 @@ const projects = {
         },
         {
           name: "Scikit-Learn",
-          iconifyClass: "simple-icons:scikitlearn",
+          iconifyClass: "devicon:scikitlearn",
           style: {
             color: "#fb9c35",
           },

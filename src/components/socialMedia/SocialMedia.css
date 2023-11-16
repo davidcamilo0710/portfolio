@@ -47,16 +47,6 @@
   box-shadow: 0 5px 15px #333;
 }
 
-.gitlab i {
-  background-color: #ffcc52;
-  transition: all 0.2s ease-in-out;
-}
-
-.gitlab i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #333;
-}
-
 .google i {
   background-color: #ea4335;
   transition: all 0.2s ease-in-out;
@@ -77,14 +67,14 @@
   box-shadow: 0 5px 15px #1da1f2;
 }
 
-.discord i {
-  background-color: #3c4ef6;
+.instagram i {
+  background-color: #e4405f;
   transition: all 0.2s ease-in-out;
 }
 
-.discord i:hover {
+.instagram i:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #3c4ef6;
+  box-shadow: 0 5px 15px #e4405f;
 }
 
 /* Media Query */
