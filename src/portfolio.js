@@ -4,7 +4,7 @@
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "G-CK9SGDR71W",
+  googleTrackingID: "G-QT2L09TF97",
 };
 
 //Home Page
@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "Data Scientist, Back-end Developer, and Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/1o6CB2QBsIwBmoKDO1gTyock_rU1k23nN/view?usp=sharing",
+    "https://drive.google.com/file/d/1LI1rHZuGaITl3qqXNCg6mWDfLzLHu1Qo/view?usp=sharing",
   mail: "mailto:im.davidcamilo0710@gmail.com",
 };
 
@@ -184,7 +184,7 @@ const skills = {
         // },
         {
           skillName: "Angular",
-          fontAwesomeClassname: "logos:angular-icon",
+          fontAwesomeClassname: "vscode-icons:file-type-angular",
           style: {
             color: "transparent",
           },
@@ -255,7 +255,7 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture & DevOps",
+      title: "Cloud & DevOps",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",

@@ -6,15 +6,14 @@ import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
-import ReactGA from "react-ga";
+import TagManager from "react-gtm-module";
 
 function App() {
+  const gtmId = "G-QT2L09TF97";  // Coloca tu ID de Google Tag Manager aquí
+
   useEffect(() => {
-    if (settings.googleTrackingID) {
-      ReactGA.initialize(settings.googleTrackingID, {
-        testMode: process.env.NODE_ENV === "test",
-      });
-      ReactGA.pageview(window.location.pathname + window.location.search);
+    if (gtmId) {
+      TagManager.initialize({ gtmId, dataLayer: { platform: 'react' } });
     }
   }, []);
 
