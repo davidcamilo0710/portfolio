@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.866b34a2.css",
-    "main.js": "/static/js/main.8f7ea005.js",
+    "main.css": "/static/css/main.a1b54449.css",
+    "main.js": "/static/js/main.fd696dba.js",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.33f11e8e33e406b0dc21.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.5f2a2f236048660df440.svg",
     "static/media/Unicauca_logo.png": "/static/media/Unicauca_logo.a794b4eca44f7137cd4f.png",
@@ -39,16 +39,16 @@
     "static/media/mitx_logo.png": "/static/media/mitx_logo.d2efb5538d99762404f1.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.86ce78132c18df414d83.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
-    "static/media/platzi_logo.png": "/static/media/platzi_logo.cf3d3c67b632a74c859f.png",
+    "static/media/platzi_logo.png": "/static/media/platzi_logo.d5c3ea90d72c3204017a.png",
     "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
     "static/media/ibm_logo.png": "/static/media/ibm_logo.fe93482bab0a59f540d5.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "index.html": "/index.html",
-    "main.866b34a2.css.map": "/static/css/main.866b34a2.css.map",
-    "main.8f7ea005.js.map": "/static/js/main.8f7ea005.js.map"
+    "main.a1b54449.css.map": "/static/css/main.a1b54449.css.map",
+    "main.fd696dba.js.map": "/static/js/main.fd696dba.js.map"
   },
   "entrypoints": [
-    "static/css/main.866b34a2.css",
-    "static/js/main.8f7ea005.js"
+    "static/css/main.a1b54449.css",
+    "static/js/main.fd696dba.js"
   ]
 }
