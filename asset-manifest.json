@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a1b54449.css",
-    "main.js": "/static/js/main.8610dd1b.js",
+    "main.js": "/static/js/main.fca804e5.js",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.33f11e8e33e406b0dc21.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.5f2a2f236048660df440.svg",
     "static/media/Unicauca_logo.png": "/static/media/Unicauca_logo.a794b4eca44f7137cd4f.png",
@@ -36,7 +36,7 @@
     "static/media/mac_logo.png": "/static/media/mac_logo.b866ef4d3d54ea48e121.png",
     "static/media/harvard_logo.png": "/static/media/harvard_logo.0d1d1e6787fea3f23d91.png",
     "static/media/aws_logo.png": "/static/media/aws_logo.234952712ce158ccc657.png",
-    "static/media/servagro_logo.png": "/static/media/servagro_logo.f9483726fb7be0251128.png",
+    "static/media/Servagro_logo.png": "/static/media/Servagro_logo.f9483726fb7be0251128.png",
     "static/media/mitx_logo.png": "/static/media/mitx_logo.d2efb5538d99762404f1.png",
     "static/media/Unir_logo.png": "/static/media/Unir_logo.f28420ae0140a086972c.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.86ce78132c18df414d83.eot",
@@ -47,10 +47,10 @@
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "index.html": "/index.html",
     "main.a1b54449.css.map": "/static/css/main.a1b54449.css.map",
-    "main.8610dd1b.js.map": "/static/js/main.8610dd1b.js.map"
+    "main.fca804e5.js.map": "/static/js/main.fca804e5.js.map"
   },
   "entrypoints": [
     "static/css/main.a1b54449.css",
-    "static/js/main.8610dd1b.js"
+    "static/js/main.fca804e5.js"
   ]
 }
