@@ -9,11 +9,11 @@ import { settings } from "./portfolio";
 import TagManager from "react-gtm-module";
 
 function App() {
-  const gtmId = "G-QT2L09TF97";  // Coloca tu ID de Google Tag Manager aquí
+  const gtmId = "G-QT2L09TF97"; // Coloca tu ID de Google Tag Manager aquí
 
   useEffect(() => {
     if (gtmId) {
-      TagManager.initialize({ gtmId, dataLayer: { platform: 'react' } });
+      TagManager.initialize({ gtmId, dataLayer: { platform: "react" } });
     }
   }, []);
 

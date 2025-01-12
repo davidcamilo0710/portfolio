@@ -10,13 +10,16 @@ function ExperienceAccordion(props) {
   return (
     <div className="experience-accord">
       <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}>
-        <Accordion onChange={({ expanded }) => console.log(expanded)}>
-          {props.sections.map((section) => {
+        <Accordion
+          // Define the initial state to open the first section (Work Experience)
+          initialState={{ expanded: ["0"] }} // "0" corresponds to the index of "Work Experience"
+        >
+          {props.sections.map((section, index) => {
             return (
               <Panel
                 className="accord-panel"
                 title={section["title"]}
-                key={section["title"]}
+                key={index.toString()} // Use the index as the key
               >
                 {section["experiences"].map((experience) => {
                   return (

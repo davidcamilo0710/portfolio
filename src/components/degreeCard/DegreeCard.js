@@ -73,7 +73,7 @@ function DegreeCard(props) {
             style={{
               maxWidth: "100%",
               maxHeight: "100%",
-              transform: "scale(50%, 50%)",
+              transform: "scale(80%, 80%)",
             }}
             src={require(`../../assests/images/${degree.logo_path}`)}
             alt={degree.alt_name}
@@ -127,7 +127,7 @@ function DegreeCard(props) {
                   backgroundColor: theme.accentColor,
                 }}
               >
-                Visit Website
+                Publication
               </p>
             </a>
           </div>

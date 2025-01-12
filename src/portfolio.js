@@ -13,10 +13,9 @@ const greeting = {
   title2: "David M.G.",
   logo_name: "david.mg()",
   full_name: "David Muñoz G",
-  subTitle:
-    "Data Scientist, Back-end Developer, and Life Long Learner.",
+  subTitle: "Data Scientist, Back-end Developer, and Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/1LI1rHZuGaITl3qqXNCg6mWDfLzLHu1Qo/view?usp=sharing",
+    "https://drive.google.com/file/d/1S7g4JP21GVVNyE69kEUfs0SNhuewrXSP/view?usp=sharing",
   mail: "mailto:im.davidcamilo0710@gmail.com",
 };
 
@@ -25,20 +24,20 @@ const socialMediaLinks = {
   github: "https://github.com/davidcamilo0710",
   linkedin: "https://www.linkedin.com/in/davidcamilo0710/",
   gmail: "im.davidcamilo0710@gmail.com",
-  twitter: "https://twitter.com/DavidCamilo_M",
+  //twitter: "https://twitter.com/DavidCamilo_M",
   discord: "http://discordapp.com/users/611348105652207623",
 };
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Data Science, AI & Analytics",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Turning dirty and unstructured data into ready to use data for analytics",
         "⚡ Extract insights and automate intelligent decision-making from business data, and other available sources",
         "⚡ Creating dynamic dashboards, insightful reports, and compelling visualizations using Power BI, Looker Studio, and Tableau",
-        "⚡ Building Machine Learning and Deep Learning models for different use cases",
+        "⚡ Building Machine Learning and Deep Learning models for diverse use cases, and deploying them to production with MLOps tools and practices",
       ],
       softwareSkills: [
         {
@@ -58,18 +57,11 @@ const skills = {
         },
         {
           skillName: "Scikit-Learn",
-          fontAwesomeClassname: "simple-icons:scikitlearn",
+          fontAwesomeClassname: "devicon:scikitlearn",
           style: {
             color: "#fb9c35",
           },
         },
-        //{
-        //  skillName: "PyTorch",
-        //  fontAwesomeClassname: "logos-pytorch",
-        //  style: {
-        //    backgroundColor: "transparent",
-        //  },
-        //},
         {
           skillName: "Python",
           fontAwesomeClassname: "logos:python",
@@ -92,8 +84,15 @@ const skills = {
           },
         },
         {
-          skillName: "Matlab",
-          fontAwesomeClassname: "vscode-icons:file-type-matlab",
+          skillName: "Apache Kafka",
+          fontAwesomeClassname: "skill-icons:kafka",
+          style: {
+            color: "#231F20", // Color representativo de Kafka
+          },
+        },
+        {
+          skillName: "Excel",
+          fontAwesomeClassname: "vscode-icons:file-type-excel",
           style: {
             color: "#trasparent",
           },
@@ -119,33 +118,46 @@ const skills = {
             color: "#trasparent",
           },
         },
+        {
+          skillName: "Snowflake",
+          fontAwesomeClassname: "fluent-emoji-flat:snowflake",
+          style: {
+            color: "#56B3FF", // Color representativo de Snowflake
+          },
+        },
+        {
+          skillName: "OpenCV",
+          fontAwesomeClassname: "devicon:opencv",
+          style: {
+            color: "#5C3EE8", // Color representativo de OpenCV
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "devicon:figma",
+          style: {
+            color: "#F24E1E", // Color representativo de Figma
+          },
+        },
+        {
+          skillName: "Canva",
+          fontAwesomeClassname: "devicon:canva",
+          style: {
+            color: "#00C4CC", // Color representativo de Canva
+          },
+        },
       ],
     },
-
     {
       title: "Back-end Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Creating application back-end in Spring Boot framework",
-        "⚡ Integration of third party services such as AWS and Azure",
-        "⚡ Designing and optimizing database schemas for improved data management and retrieval",
-        "⚡ Building basic responsive website front-end using Angular and ReactJS",
+        "⚡ Creating back-end applications using frameworks like Spring Boot and FastAPI",
+        "⚡ Integrating third-party services and APIs, such as AWS, Azure, and external REST APIs, for seamless functionality",
+        "⚡ Designing, optimizing, and managing complex database schemas to improve data retrieval, scalability, and performance",
+        "⚡ Building basic responsive website front-end using ReactJS",
       ],
       softwareSkills: [
-        // {
-        //   skillName: "HTML5",
-        //   fontAwesomeClassname: "simple-icons:html5",
-        //   style: {
-        //     color: "#E34F26",
-        //   },
-        // },
-        // {
-        //   skillName: "CSS3",
-        //   fontAwesomeClassname: "fa-css3",
-        //   style: {
-        //     color: "#1572B6",
-        //   },
-        // },
         {
           skillName: "Java",
           fontAwesomeClassname: "logos:java",
@@ -154,37 +166,8 @@ const skills = {
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "logos:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        // {
-        //   skillName: "NodeJS",
-        //   fontAwesomeClassname: "simple-icons:node-dot-js",
-        //   style: {
-        //     color: "#339933",
-        //   },
-        // },
-        // {
-        //   skillName: "NPM",
-        //   fontAwesomeClassname: "simple-icons:npm",
-        //   style: {
-        //     color: "#CB3837",
-        //   },
-        // },
-        {
-          skillName: "Angular",
-          fontAwesomeClassname: "vscode-icons:file-type-angular",
+          skillName: "FastAPI",
+          fontAwesomeClassname: "devicon:fastapi",
           style: {
             color: "transparent",
           },
@@ -203,13 +186,13 @@ const skills = {
             color: "#6db33f",
           },
         },
-        //{
-        //  skillName: "Django",
-        //  fontAwesomeClassname: "simple-icons:django",
-        //  style: {
-        //    color: "#0c4b33",
-        //  },
-        //},
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "devicon:postman",
+          style: {
+            color: "#FF6C37", // Color representativo de Postman
+          },
+        },
         {
           skillName: "Linux",
           fontAwesomeClassname: "logos:linux-tux",
@@ -232,19 +215,26 @@ const skills = {
           },
         },
         {
+          skillName: "Microsoft SQL Server",
+          fontAwesomeClassname: "devicon:microsoftsqlserver",
+          style: {
+            color: "#CC2927", // Color representativo de SQL Server
+          },
+        },
+        {
+          skillName: "Oracle Database",
+          fontAwesomeClassname: "lineicons:oracle",
+          style: {
+            color: "#F80000", // Color representativo de Oracle
+          },
+        },
+        {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#47A248",
           },
         },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -252,24 +242,25 @@ const skills = {
             color: "#E94E32",
           },
         },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "fa:github",
+          style: {
+            color: "#ffffff", // Color representativo de GitHub
+          },
+        },
       ],
     },
     {
-      title: "Cloud & DevOps",
+      title: "Cloud, DevOps & Automation",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Experience hosting and managing websites",
         "⚡ Experience with continuous integration and continuous delivery",
+        "⚡ Automating workflows and orchestrating processes to improve efficiency and reliability across data and software pipelines",
       ],
       softwareSkills: [
-        // {
-        //   skillName: "GCP",
-        //   fontAwesomeClassname: "simple-icons:googlecloud",
-        //   style: {
-        //     color: "#4285F4",
-        //   },
-        // },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -305,7 +296,14 @@ const skills = {
           fontAwesomeClassname: "logos:gitlab",
         },
         {
-          skillName: "Airflow",
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "devicon:githubactions",
+          style: {
+            color: "#2088FF", // Color representativo de GitHub Actions
+          },
+        },
+        {
+          skillName: "Apache Airflow",
           fontAwesomeClassname: "logos:airflow-icon",
           style: {
             color: "#1488C6",
@@ -319,6 +317,23 @@ const skills = {
 const degrees = {
   degrees: [
     {
+      title: "Universidad Internacional de La Rioja (UNIR)",
+      title_url:
+        "https://estudiar.unir.net/co/co-esp-ma-ing-maestria-inteligencia-artificial/",
+      subtitle: "Master's in Artificial Intelligence",
+      logo_path: "Unir_logo.png",
+      alt_name: "UNIR",
+      duration: "Feb. 2025 - Present",
+      descriptions: [
+        "⚡ Focused on advanced topics in Artificial Intelligence, including Machine Learning, Deep Learning, and Natural Language Processing.",
+        "⚡ Courses cover AI applications in real-world scenarios, Big Data integration, and ethical considerations in AI development.",
+        "⚡ Developed skills in MLOps and cloud-based AI model deployment on platforms like Azure and AWS.",
+      ],
+      website_link:
+        "https://drive.google.com/file/d/1gdh4a_zAxBLw1iFQLjgpc2vQoPDseUD6/view?usp=sharing",
+    },
+
+    {
       title: "Universidad del Cauca",
       title_url: "https://www.unicauca.edu.co/",
       subtitle: "Bachelors in Electronics and Telecommunications Engineering",
@@ -326,11 +341,12 @@ const degrees = {
       alt_name: "SSEC",
       duration: "2016 - 2022",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like Networking, Operating Systems, DB, Security, Data Structures, Algorithms, and AI.",
-        "⚡ Apart from this, I have done courses on Machine Learning, Data Science, Business Intelligence, Cloud, and Back-end Development.",
-        "⚡ I received honorable mention for the high impact research project in the field of Telecommunications and Machine Learning.",
+        "⚡ Studied core subjects of software engineering, including Networking, Operating Systems, Databases, Security, Data Structures, Algorithms, and Artificial Intelligence.",
+        "⚡ Completed specialized courses on Machine Learning, Data Science, Business Intelligence, Cloud Computing, and Back-end Development.",
+        "⚡ Earned an honorable mention for a high-impact research project in Telecommunications and Machine Learning, showcasing innovation and practical application.",
       ],
-      website_link: "https://drive.google.com/file/d/1gdh4a_zAxBLw1iFQLjgpc2vQoPDseUD6/view?usp=sharing",
+      website_link:
+        "https://drive.google.com/file/d/1gdh4a_zAxBLw1iFQLjgpc2vQoPDseUD6/view?usp=sharing",
     },
   ],
 };
@@ -338,8 +354,25 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Advanced Artificial Intelligence Bootcamp",
+      subtitle: "- Learning Path - 2024",
+      logo_path: "utp_logo.png",
+      certificate_link:
+        "https://www.acreditta.com/credential/e9f783ba-911a-47bc-95ad-92b4d2c97c65?utm_source=linkedin_profile&resource_type=badge&resource=e9f783ba-911a-47bc-95ad-92b4d2c97c65",
+      alt_name: "AZ - UTP",
+      color_code: "#f5a623",
+    },
+    {
+      title: "Data Protection: Habeas Data",
+      subtitle: "- Course - 2024",
+      logo_path: "javeriana_logo.png",
+      certificate_link: "https://wallet.xertify.co/certificates/CC9B1657A001",
+      alt_name: "P.U. Javeriana",
+      color_code: "#dbdce0",
+    },
+    {
       title: "DevOps Bootcamp",
-      subtitle: "- Christian Van Der Henst",
+      subtitle: "- Learning Path - 2023",
       logo_path: "platzi_logo.png",
       certificate_link:
         "https://platzi.com/p/davidcamilo0710/ruta/8353-cloud-devops/diploma/detalle/",
@@ -348,7 +381,7 @@ const certifications = {
     },
     {
       title: "Google Kubernetes Engine",
-      subtitle: "- Christian Van Der Henst",
+      subtitle: "- Course - 2023",
       logo_path: "platzi_logo.png",
       certificate_link:
         "https://platzi.com/p/davidcamilo0710/curso/1365-kubernetes-xertica/diploma/detalle/",
@@ -357,7 +390,7 @@ const certifications = {
     },
     {
       title: "DevOps with GitLab",
-      subtitle: "- Christian Van Der Henst",
+      subtitle: "- Course - 2023",
       logo_path: "platzi_logo.png",
       certificate_link:
         "https://platzi.com/p/davidcamilo0710/curso/1526-gitlab/diploma/detalle/",
@@ -366,16 +399,16 @@ const certifications = {
     },
     {
       title: "Microsoft Azure Data Engineering Associate",
-      subtitle: "- Betty Vandenbosch",
+      subtitle: "- Professional Certificate - 2022",
       logo_path: "microsoft_logo.png",
       certificate_link:
         "https://coursera.org/verify/professional-cert/B32PZKEMTN77",
       alt_name: "Microsoft",
       color_code: "#D83B0199",
-    },    
+    },
     {
       title: "Microsoft Azure Data Scientist Associate",
-      subtitle: "- Betty Vandenbosch",
+      subtitle: "- Professional Certificate - 2022",
       logo_path: "microsoft_logo.png",
       certificate_link:
         "https://coursera.org/verify/professional-cert/45PZZE98VVYB",
@@ -384,7 +417,7 @@ const certifications = {
     },
     {
       title: "Business Analytics",
-      subtitle: "- Eric Bradlow",
+      subtitle: "- Course - 2022",
       logo_path: "wharton_logo.png",
       certificate_link:
         "https://coursera.org/verify/specialization/WQ8F5L8Q5246",
@@ -393,7 +426,7 @@ const certifications = {
     },
     {
       title: "DeepLearning.AI TensorFlow Developer",
-      subtitle: "- Laurence Moroney",
+      subtitle: "- Professional Certificate - 2022",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://coursera.org/verify/professional-cert/WMERHJ2FY3EA",
@@ -402,7 +435,7 @@ const certifications = {
     },
     {
       title: "Data Science Professional Certificate",
-      subtitle: "- Rav Ahuja",
+      subtitle: "- Professional Certificate - 2022",
       logo_path: "ibm_logo.png",
       certificate_link:
         "https://www.credly.com/badges/49616552-7d86-4b84-9b46-a114adcff838",
@@ -411,7 +444,7 @@ const certifications = {
     },
     {
       title: "Data Visualization with Tableau",
-      subtitle: "- Govind Acharya",
+      subtitle: "- Course - 2022",
       logo_path: "davies_logo.png",
       certificate_link:
         "https://coursera.org/verify/specialization/F5QADYZBSHKH",
@@ -420,7 +453,7 @@ const certifications = {
     },
     {
       title: "Excel Skills for Business",
-      subtitle: "- Yvonne Breyer",
+      subtitle: "- Course - 2022",
       logo_path: "mac_logo.png",
       certificate_link:
         "https://coursera.org/verify/specialization/KYVP3CDUHY3Y",
@@ -429,7 +462,7 @@ const certifications = {
     },
     {
       title: "Statistics and R",
-      subtitle: "- Rafael Irizarry",
+      subtitle: "- Course - 2022",
       logo_path: "harvard_logo.png",
       certificate_link:
         "https://courses.edx.org/certificates/2ee363c332774b4b84b611fcb0d2dff2",
@@ -438,7 +471,7 @@ const certifications = {
     },
     {
       title: "SQL applied in data science",
-      subtitle: "- Rav Ahuja",
+      subtitle: "- Course - 2022",
       logo_path: "ibm_logo.png",
       certificate_link:
         "https://courses.edx.org/certificates/564800b033ed4b429d07b8b0e7715b70",
@@ -447,7 +480,7 @@ const certifications = {
     },
     {
       title: "Scrum Fundamentals Certified",
-      subtitle: "- SCRUMstudy",
+      subtitle: "- Course - 2022",
       logo_path: "scrum_logo.png",
       certificate_link:
         "https://www.scrumstudy.com/certification/verify?type=SFC&number=902897",
@@ -456,7 +489,7 @@ const certifications = {
     },
     {
       title: "M320: Data Modeling",
-      subtitle: "- Mark Porter",
+      subtitle: "- Course - 2022",
       logo_path: "mongo_logo.png",
       certificate_link:
         "https://university.mongodb.com/course_completion/dca1c357-d34d-44a8-92e9-f8021adc0fec",
@@ -465,7 +498,7 @@ const certifications = {
     },
     {
       title: "M103: Basic Cluster Administration",
-      subtitle: "- Mark Porter",
+      subtitle: "- Course - 2022",
       logo_path: "mongo_logo.png",
       certificate_link:
         "https://university.mongodb.com/course_completion/5cdd8a7d-24c6-494c-8fca-a977a45dc503",
@@ -474,7 +507,7 @@ const certifications = {
     },
     {
       title: "M220P: MongoDB for Python Davelopers",
-      subtitle: "- Mark Porter",
+      subtitle: "- Course - 2022",
       logo_path: "mongo_logo.png",
       certificate_link:
         "https://university.mongodb.com/course_completion/4c715948-8819-4d29-b51f-ad685946b2e7",
@@ -483,26 +516,24 @@ const certifications = {
     },
     {
       title: "Building Modern Python Applications on AWS",
-      subtitle: "- Morgan Willis",
+      subtitle: "- Course - 2021",
       logo_path: "aws_logo.png",
-      certificate_link:
-        "https://coursera.org/verify/AGEM9QKD3CKD",
+      certificate_link: "https://coursera.org/verify/AGEM9QKD3CKD",
       alt_name: "AWS",
       color_code: "#dbdce0",
     },
     {
       title: "Machine Learning with Python from Linear Models to Deep Learning",
-      subtitle: "- Regina Barzilay",
+      subtitle: "- Course - 2020",
       logo_path: "mitx_logo.png",
       certificate_link:
         "https://courses.edx.org/certificates/c60b48a05a87439a80c9c2592e19695c",
       alt_name: "MITx",
       color_code: "#8C151599",
     },
-
     {
       title: "Google Data Studio",
-      subtitle: "- Juan José Bello",
+      subtitle: "- Course - 2023",
       logo_path: "platzi_logo.png",
       certificate_link:
         "https://platzi.com/p/davidcamilo0710/curso/1838-data-studio/diploma/detalle/",
@@ -511,7 +542,7 @@ const certifications = {
     },
     {
       title: "Infrastructure as Code with Terraform",
-      subtitle: "- Christian Van Der Henst",
+      subtitle: "- Course - 2023",
       logo_path: "platzi_logo.png",
       certificate_link:
         "https://platzi.com/p/davidcamilo0710/curso/1712-devops-terraform/diploma/detalle/",
@@ -520,7 +551,7 @@ const certifications = {
     },
     {
       title: "Docker",
-      subtitle: "- Guido Vilariño",
+      subtitle: "- Course - 2023",
       logo_path: "platzi_logo.png",
       certificate_link:
         "https://platzi.com/p/davidcamilo0710/curso/2066-docker/diploma/detalle/",
@@ -529,24 +560,13 @@ const certifications = {
     },
     {
       title: "Git and GitHub",
-      subtitle: "- Freddy Vega",
+      subtitle: "- Course - 2023",
       logo_path: "platzi_logo.png",
       certificate_link:
         "https://platzi.com/p/davidcamilo0710/curso/1557-git-github/diploma/detalle/",
       alt_name: "Platzi",
       color_code: "#85f5c5",
     },
-
-
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 
@@ -555,40 +575,54 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Research and Volunteership",
   description:
-    " I have worked with companies and a research group as Data Scientist. I have also worked as a volunteer to improve my skills and help others.",
+    "Data Scientist with extensive experience in developing and implementing innovative solutions for data processing, analysis, and visualization. Skilled in descriptive, predictive, and prescriptive modeling, machine learning, artificial intelligence, MLOps, and Big Data. Proficient in Python, SQL, Java, cloud technologies (Azure, AWS), DevOps, and automation.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Data Analyst",
+          title: "Data Scientist",
+          company: "Skalo Tek",
+          company_url: "https://www.skalotek.com/",
+          logo_path: "skalotek_logo.png",
+          duration: "Apr 2024 - Present",
+          location: "Bogotá DC, Colombia",
+          description:
+            "Led a multidisciplinary team of analysts and data engineers to develop various projects, including cloud data architectures, process automation, advanced analytics, dashboards, prediction models, and natural language processing for large corporations in sectors such as legal services, insurance, investments, multinational food, manufacturing, and education. Built models to predict ICFES scores, judicial rulings, prices, and sales; conducted advanced segmentations and visualization using augmented reality. Implemented data-driven strategies to optimize processes, improve customer retention, manage risks through predictive analysis and scenarios, increase conversions, and contribute to financial growth. Collaborated in implementing data protection regulations, ensuring compliance with current Colombian laws.",
+          color: "#4285F4",
+        },
+        {
+          title: "Data Analyst and R&D Leader",
           company: "Servagro LTDA",
           company_url: "https://seguridadsvg.com/",
-          logo_path: "Servagro_logo.png",
+          logo_path: "servagro_logo.png",
           duration: "Feb 2023 - Present",
           location: "Popayán-Cauca, Colombia",
-          description: "Utilized SQL, Big Query, and Looker Studio to create dashboards and reports for all company departments (accounting, administration, oper‑ations, sales, marketing, and more), enabling effective tracking of KPIs and enhancing decision‑making. Conducted internal audits to ensure data quality and accuracy. Also, updated information and corrected errors on a large scale. Acquired and cleaned databases for advertising campaigns via SMS, WhatsApp, and email, and managed campaigns on Meta and Google. Collaborated in the implementation of a DevOps environment using Digital Ocean, Git, Jenkins, JUnit, and New Relic.",
+          description:
+            "Used SQL, Big Query, and Looker Studio to create dashboards, reports, and tools for all company departments, enabling effective KPI tracking and transforming Servagro into a data-driven organization. Conducted internal audits to ensure data quality and corrected large-scale errors. Led the innovation and development area, implementing technological solutions in cybersecurity, automation, and IT. Predicted key indicators and inventory metrics and directed the adoption of AI-based tools, improving the company's productivity and efficiency. Collaborated in implementing a DevOps environment using Digital Ocean, Git, Jenkins, JUnit, and New Relic.",
           color: "#4285F4",
         },
         {
-          title: "Data scientist and web developer",
+          title: "Data Analyst",
           company: "IPS Cambio Semillero de Vida SAS",
           company_url: "https://ipscambio.com",
-          logo_path: "ipscambio.png",
+          logo_path: "ipscambio_logo.png",
           duration: "Feb 2022 - Oct 2022",
           location: "Popayán-Cauca, Colombia",
-          description: "Redesigned and developed a website to showcase IPS Cambio’s commercial services and establish a strong online presence. Coordinated and executed the migration and centralization of corporate data in SAP, covering data extraction, cleaning, data loading, and contributing to the system’s configuration and launch. Used SQL and Looker Studio to visualize and analyze accounting, operational, and customer data, providing key indicators, metrics, and strategic recommendations that optimized the company’s processes and profits.",
+          description:
+            "Redesigned and developed a website to showcase IPS Cambio’s commercial services and establish a strong online presence. Coordinated and executed the migration and centralization of corporate data in SAP, covering data extraction, cleaning, loading, and contributing to the system’s configuration and launch. Used SQL and Looker Studio to visualize and analyze accounting, operational, and customer data, providing key indicators, metrics, and strategic recommendations that optimized the company’s processes and profits.",
           color: "#4285F4",
         },
         {
-          title: "Data scientist",
-          company: "Ingetel ingenieria en telecomunicaciones SAS",
+          title: "Data Scientist",
+          company: "Ingetel Ingeniería en Telecomunicaciones SAS",
           company_url: "https://www.linkedin.com/company/ingetel/",
-          logo_path: "ingetel.png",
+          logo_path: "ingetel_logo.png",
           duration: "Jul 2020 - Nov 2021",
-          location: "Cali- Valle del Cauca, Colombia",
-          description: "Designed and developed various back‑end modules for the company’s website using Spring Boot and AWS. Used Python and Tableau to analyze and visualize accounting data. Additionally, analyzed factors contributing to the installation cost of mobile antennas in different departments of Colombia. Created a supervised learning model to predict the installation cost of mobile antennas in the departments of Colombia.",
+          location: "Cali-Valle del Cauca, Colombia",
+          description:
+            "Used Python and Power BI to analyze and visualize accounting data. Additionally, analyzed factors influencing the cost of mobile antenna installations across Colombia. Created a supervised learning model to predict the installation cost of mobile antennas, deployed it as a REST API using Amazon SageMaker, and integrated it with the company's software. Designed and developed various back-end modules for the company’s website using Spring Boot and AWS.",
           color: "#4285F4",
         },
       ],
@@ -597,30 +631,15 @@ const experience = {
       title: "Research",
       experiences: [
         {
-          title: "Machine learning developer",
-          company: "IEEE ComSoc Unicauca",
-          company_url: "http://portal.unicauca.edu.co/portaleningles/news/comsocauca-research-seedbed-consolidated-dissemination-advances-telecommunications",
-          logo_path: "comsoc.png",
+          title: "Machine Learning Developer",
+          company: "IEEE ComSoc UniCauca",
+          company_url:
+            "http://portal.unicauca.edu.co/portaleningles/news/comsocauca-research-seedbed-consolidated-dissemination-advances-telecommunications",
+          logo_path: "comsoc_logo.png",
           duration: "Oct 2021 - Jul 2022",
           location: "Popayán-Cauca, Colombia",
           description:
-            "Created a Python, P4, and Machine Learning‑based application to classify and route Internet traffic in real‑time on the data plane of a Telecommunications network, significantly improving its performance. Generated, documented, and published knowledge related to the new P4 programming language for the advanced telecommunications services research line.",
-          color: "#4285F4",
-        },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Data Scientist: Support to Help Advance Ethical Fashion",  
-          company: "Ashoka",
-          company_url: "https://www.ashoka.org/about-ashoka",
-          logo_path: "ashoka.png",
-          duration: "Aug 2022 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I'm actively supporting the development of a technological platform for the education of different targets such as cooperatives, MSMEs and Designers, economists, and other professionals. I'm currently organizing and centralizing research information about LATAM by creating databases and building scripts.",
+            "Created a Python, P4, and Machine Learning-based application to classify and route Internet traffic in real-time on the data plane of a Telecommunications network, significantly improving its performance. Generated, documented, and published knowledge related to the new P4 programming language for the advanced telecommunications services research line.",
           color: "#4285F4",
         },
       ],
@@ -771,8 +790,10 @@ const projects = {
     {
       id: "4",
       name: "Google Playstore Apps",
-      url: "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/GooglePlaystoreStoryboardingandStorytelling/GooglePlaystoreApps",
-      description: "Storyboarding and Storytelling in TableaU that provides intelligent recommendations for developing successful apps.",
+      url:
+        "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/GooglePlaystoreStoryboardingandStorytelling/GooglePlaystoreApps",
+      description:
+        "Storyboarding and Storytelling in TableaU that provides intelligent recommendations for developing successful apps.",
       languages: [
         {
           name: "TableaU",
@@ -814,7 +835,8 @@ const projects = {
       id: "7",
       name: "Portfolio Website",
       url: "https://github.com/davidcamilo0710/Portfolio",
-      description: "The complete portfolio website hosted using github pages (gh-pages). You are stalking it right now 😉...",
+      description:
+        "The complete portfolio website hosted using github pages (gh-pages). You are stalking it right now 😉...",
       languages: [
         {
           name: "HTML5",
@@ -837,7 +859,8 @@ const projects = {
     {
       id: "8",
       name: "Responsive Data Viz Dashboard",
-      url: "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/CreatingaDashboardSuperStore/KPIDashboard",
+      url:
+        "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/CreatingaDashboardSuperStore/KPIDashboard",
       description:
         "A beautiful and minimalist dashboard in Tableau, which allows to modify parameters to analyze the profit in sales data.",
       languages: [

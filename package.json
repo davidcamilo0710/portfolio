@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "Portfolio",
-  "homepage": "https://grefox.live/",
+  "homepage": "https://grefox.xyz/",
   "version": "1.0.2",
   "scripts": {
     "build": "react-scripts build",
