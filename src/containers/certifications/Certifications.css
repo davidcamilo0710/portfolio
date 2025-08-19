@@ -11,6 +11,24 @@
   flex-wrap: wrap;
 }
 
+.certs-toggle-btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.certs-toggle-btn-div .general-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 1380px) {
   .certs-header {
     font-size: 35px;

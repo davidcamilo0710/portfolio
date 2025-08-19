@@ -1,0 +1,39 @@
+.single-page-main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.section {
+  padding: 80px 0;
+  scroll-margin-top: 80px; /* Offset for fixed header */
+}
+
+.section:first-of-type {
+  padding-top: 0;
+}
+
+/* Import existing styles from individual components */
+@import "../../pages/education/EducationComponent.css";
+@import "../../pages/experience/Experience.css";
+@import "../../pages/projects/Projects.css";
+@import "../../pages/contact/ContactComponent.css";
+
+/* Override any conflicting styles specific to single page layout */
+.basic-education,
+.basic-experience,
+.basic-projects,
+.basic-contact {
+  padding: 20px 0;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure sections have proper spacing */
+.section + .section {
+  margin-top: 40px;
+  padding-top: 80px;
+}

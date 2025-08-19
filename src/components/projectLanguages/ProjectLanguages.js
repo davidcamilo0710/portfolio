@@ -9,27 +9,19 @@ function ProjectLanguages(props) {
         <ul className="dev-icons-languages">
           {props.logos.map((logo) => {
             return (
-              <OverlayTrigger
+              <li
                 key={logo.name}
-                placement={"top"}
-                overlay={
-                  <Tooltip id={`tooltip-top`}>
-                    <strong>{logo.name}</strong>
-                  </Tooltip>
-                }
+                className="software-skill-inline-languages"
+                name={logo.skillName}
               >
-                <li
-                  className="software-skill-inline-languages"
-                  name={logo.skillName}
-                >
-                  <span
-                    className="iconify"
-                    data-icon={logo.iconifyClass}
-                    style={logo.color ? { color: logo.color } : {}}
-                    data-inline="false"
-                  ></span>
-                </li>
-              </OverlayTrigger>
+                <span
+                  className="iconify"
+                  data-icon={logo.iconifyClass}
+                  style={logo.color ? { color: logo.color } : {}}
+                  data-inline="false"
+                  title={logo.name}
+                ></span>
+              </li>
             );
           })}
         </ul>

@@ -1,3 +1,17 @@
+/* Centrar el botón More Projects (Github) solo en la sección de proyectos */
+.general-btn[href*="github.com"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120%;
+  max-width: 205px;
+}
+@media (max-width: 768px) {
+  .general-btn[href*="github.com"] {
+    width: 100%;
+    max-width: 53vw;
+  }
+}
 .projects-main {
   width: 100%;
   text-align: center;

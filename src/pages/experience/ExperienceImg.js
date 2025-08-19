@@ -237,7 +237,7 @@ export default function ExperienceImg(props) {
         opacity="0.1"
       />
       <polygon
-        points="240 321 194 603 402 581 393 557 500 230.5 570.5 268.5 320.5 240 321"
+        points="240,321 194,603 402,581 393,557 500,230.5 570.5,268.5 320.5,240"
         fill="#292929"
       />
       <polygon points="186 1 466 0 547 613 266 651 186 1" fill="#292929" />

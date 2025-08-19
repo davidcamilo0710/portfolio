@@ -15,7 +15,7 @@ const greeting = {
   full_name: "David Muñoz G",
   subTitle: "Data Scientist, Back-end Developer, and Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/1S7g4JP21GVVNyE69kEUfs0SNhuewrXSP/view?usp=sharing",
+    "https://drive.google.com/file/d/19hJwpDKH0vIrBSIBpQkqIQFBh3xhRBpW/view?usp=sharing",
   mail: "mailto:im.davidcamilo0710@gmail.com",
 };
 
@@ -744,6 +744,56 @@ const projects = {
     },
     {
       id: "2",
+      name: "Routing elephants with RL",
+      url: "https://github.com/davidcamilo0710/Routing_Reinforcement_Learning",
+      description:
+        "Reinforcement Learning (RL)-based routing algorithm for SDN networks created from scratch using Python.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Deforest Amazonia",
+      url: "https://github.com/davidcamilo0710/deforest_amazonia",
+      description:
+        "Analysis of deforestation in the Jamanxim National Forest (2000-2019) through a computer vision pipeline that segments and quantifies affected areas from satellite imagery.",
+      languages: [
+        { name: "Jupyter Notebook", iconifyClass: "logos-jupyter" },
+        { name: "OpenCV", iconifyClass: "devicon:opencv" },
+        { name: "Python", iconifyClass: "logos-python" },
+      ],
+    },
+    {
+      id: "4",
+      name: "Low Light Enhancer",
+      url: "https://github.com/davidcamilo0710/low_light_enhancer",
+      description:
+        "A comparison of classical image processing vs. the Zero-DCE++ deep learning model for unsupervised low-light image enhancement using PyTorch.",
+      languages: [
+        { name: "Jupyter Notebook", iconifyClass: "logos-jupyter" },
+        { name: "PyTorch", iconifyClass: "logos-pytorch" },
+        { name: "Python", iconifyClass: "logos-python" },
+      ],
+    },
+    {
+      id: "5",
+      name: "Text Classification Comparison",
+      url: "https://github.com/davidcamilo0710/text_classification_comparison",
+      description:
+        "A comparison of a classic neural network and a Transformer-based model for text classification on the 20 Newsgroups dataset using TensorFlow/Keras.",
+      languages: [
+        { name: "Jupyter Notebook", iconifyClass: "logos-jupyter" },
+        { name: "TensorFlow", iconifyClass: "logos-tensorflow" },
+        { name: "Keras", iconifyClass: "devicon:keras" },
+        { name: "Python", iconifyClass: "logos-python" },
+      ],
+    },
+    {
+      id: "6",
       name: "NBA - Fourth Quarter Analysis",
       url: "https://github.com/davidcamilo0710/NBA_Fourth_Quarter_Analysis",
       description:
@@ -771,7 +821,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "7",
       name: "EDA on ResetStore-Mercadolibre Sales",
       url: "https://github.com/davidcamilo0710/Mercadolibre_Sales_EDA",
       description:
@@ -788,7 +838,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "8",
       name: "Google Playstore Apps",
       url:
         "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/GooglePlaystoreStoryboardingandStorytelling/GooglePlaystoreApps",
@@ -802,7 +852,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "9",
       name: "LoL -- High Elo Match EDA",
       url: "https://github.com/davidcamilo0710/LeagueOfLegendsAnalysis",
       description:
@@ -819,20 +869,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
-      name: "Routing elephants with RL",
-      url: "https://github.com/davidcamilo0710/Routing_Reinforcement_Learning",
-      description:
-        "Reinforcement Learning (RL)-based routing algorithm for SDN networks created from scratch using Python.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
+      id: "10",
       name: "Portfolio Website",
       url: "https://github.com/davidcamilo0710/Portfolio",
       description:
@@ -857,7 +894,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "11",
       name: "Responsive Data Viz Dashboard",
       url:
         "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/CreatingaDashboardSuperStore/KPIDashboard",
@@ -871,7 +908,7 @@ const projects = {
       ],
     },
     {
-      id: "9",
+      id: "12",
       name: "IBM -- Winning space race",
       url: "https://github.com/davidcamilo0710/Applied_Data_Science_Capstone",
       description:

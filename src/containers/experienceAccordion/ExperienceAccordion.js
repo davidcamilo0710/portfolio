@@ -21,9 +21,13 @@ function ExperienceAccordion(props) {
                 title={section["title"]}
                 key={index.toString()} // Use the index as the key
               >
-                {section["experiences"].map((experience) => {
+                {section["experiences"].map((experience, expIndex) => {
                   return (
-                    <ExperienceCard experience={experience} theme={theme} />
+                    <ExperienceCard
+                      key={`exp-${index}-${expIndex}`}
+                      experience={experience}
+                      theme={theme}
+                    />
                   );
                 })}
               </Panel>
