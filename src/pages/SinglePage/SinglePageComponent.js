@@ -133,7 +133,7 @@ function SinglePageComponent(props) {
           className="general-btn"
           href="https://github.com/davidcamilo0710/"
         >
-          More Projects (Github)
+          More Projects
         </a>
         <br />
         <br />

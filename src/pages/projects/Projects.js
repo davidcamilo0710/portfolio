@@ -46,7 +46,7 @@ function Projects(props) {
                 className="general-btn"
                 href="https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia"
               >
-                Visualizations (TableaU)   
+                Visualizations (TableaU)
               </a>
             </div>
           </div>
@@ -65,7 +65,7 @@ function Projects(props) {
         className="general-btn"
         href="https://github.com/davidcamilo0710/"
       >
-        More Projects (Github)
+        More Projects
       </a>
       <br />
       <br />
