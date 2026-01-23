@@ -15,7 +15,7 @@ const greeting = {
   full_name: "David Muñoz G",
   subTitle: "Data Scientist, Back-end Developer, and Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/19hJwpDKH0vIrBSIBpQkqIQFBh3xhRBpW/view?usp=sharing",
+    "https://drive.google.com/file/d/1WcPJQAfYGHXytVXVhizx0obCiJq-R8kD/view?usp=sharing",
   mail: "mailto:im.davidcamilo0710@gmail.com",
 };
 
@@ -323,16 +323,15 @@ const degrees = {
       subtitle: "Master's in Artificial Intelligence",
       logo_path: "Unir_logo.png",
       alt_name: "UNIR",
-      duration: "Feb. 2025 - Present",
+      duration: "Feb. 2025 - Abr. 2026",
       descriptions: [
         "⚡ Focused on advanced topics in Artificial Intelligence, including Machine Learning, Deep Learning, and Natural Language Processing.",
         "⚡ Courses cover AI applications in real-world scenarios, Big Data integration, and ethical considerations in AI development.",
         "⚡ Developed skills in MLOps and cloud-based AI model deployment on platforms like Azure and AWS.",
       ],
       website_link:
-        "https://drive.google.com/file/d/1gdh4a_zAxBLw1iFQLjgpc2vQoPDseUD6/view?usp=sharing",
+        "https://estudiar.unir.net/co/co-esp-ma-ing-maestria-inteligencia-artificial/?utm_source=GOOGLE-BUSQ&utm_medium=Search&utm_campaign=UNIREU_LT_CO_FIG_IG_MO_TECNOLOG_X_MAR_X_LWEB_GLOB_CO_AREA-VERT_AO_GOOGLE-BUS_BUS_ESP_X_X&utm_content=CO_CO_FIG_IG_MO_TECNOLOG_X_MAR_BUSQ_Marca-InteligenciaArtificial_TXT_CPM_GOOGLE-BUS_MIX_X_X_X&bi_campaignid=21932033896&bi_adgroupid=173672160231&gad_source=1&gad_campaignid=21932033896&gbraid=0AAAAADvi6Q-7xA-sSp8JVKzRKYft2urPu&gclid=Cj0KCQiA1czLBhDhARIsAIEc7ujpFIdxEgJrahdvw5RdlHZ_MQ1o3mQ3lcYhGvcj1sasSksao66eLz8aAjorEALw_wcB",
     },
-
     {
       title: "Universidad del Cauca",
       title_url: "https://www.unicauca.edu.co/",
@@ -353,6 +352,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Continuing Education in Leadership",
+      subtitle: "- Certificate - 2025",
+      logo_path: "miu_logo.png",
+      certificate_link:
+        "https://verisignature.miuniversity.edu/csv/?csv=fa4e7043-0bee-4cb6-a232-f87db1f5198d&hash=UUczTHgvSDBmcEMxdW9BbWFzWE03OTZ3SzlINjA5NDRxdmVTcmZJSjZ4dWorb1h4RjJ0OUl0b25jN3E2R1RMTHhIVzUwUTlHc1Jvc2NueVI3QUtXOUE9PQ==",
+      alt_name: "MIU City University Miami",
+      color_code: "#dbdce0",
+    },
     {
       title: "Advanced Artificial Intelligence Bootcamp",
       subtitle: "- Learning Path - 2024",
@@ -586,7 +594,7 @@ const experience = {
           company: "Skalo Tek",
           company_url: "https://www.skalotek.com/",
           logo_path: "skalotek_logo.png",
-          duration: "Apr 2024 - Present",
+          duration: "Apr 2024 - Oct 2025",
           location: "Bogotá DC, Colombia",
           description:
             "Led a multidisciplinary team of analysts and data engineers to develop various projects, including cloud data architectures, process automation, advanced analytics, dashboards, prediction models, and natural language processing for large corporations in sectors such as legal services, insurance, investments, multinational food, manufacturing, and education. Built models to predict ICFES scores, judicial rulings, prices, and sales; conducted advanced segmentations and visualization using augmented reality. Implemented data-driven strategies to optimize processes, improve customer retention, manage risks through predictive analysis and scenarios, increase conversions, and contribute to financial growth. Collaborated in implementing data protection regulations, ensuring compliance with current Colombian laws.",
@@ -769,6 +777,19 @@ const projects = {
     },
     {
       id: "4",
+      name: "Contact Probability Predictor",
+      url: "https://github.com/davidcamilo0710/contact_predictor",
+      description:
+        "A comparative study of 25 ML models to predict effective contact in debt collection calls. The optimized model reduces the calls needed to reach 80% of customers by 56.1% compared to traditional strategies.",
+      languages: [
+        { name: "Python", iconifyClass: "logos-python" },
+        { name: "Jupyter Notebook", iconifyClass: "logos-jupyter" },
+        { name: "Scikit-learn", iconifyClass: "devicon:scikitlearn" },
+        { name: "Pandas", iconifyClass: "logos-pandas" },
+      ],
+    },
+    {
+      id: "5",
       name: "Low Light Enhancer",
       url: "https://github.com/davidcamilo0710/low_light_enhancer",
       description:
@@ -780,7 +801,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "6",
       name: "Text Classification Comparison",
       url: "https://github.com/davidcamilo0710/text_classification_comparison",
       description:
@@ -793,7 +814,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "7",
       name: "NBA - Fourth Quarter Analysis",
       url: "https://github.com/davidcamilo0710/NBA_Fourth_Quarter_Analysis",
       description:
@@ -821,7 +842,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "8",
       name: "EDA on ResetStore-Mercadolibre Sales",
       url: "https://github.com/davidcamilo0710/Mercadolibre_Sales_EDA",
       description:
@@ -838,7 +859,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "9",
       name: "Google Playstore Apps",
       url:
         "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/GooglePlaystoreStoryboardingandStorytelling/GooglePlaystoreApps",
@@ -852,7 +873,7 @@ const projects = {
       ],
     },
     {
-      id: "9",
+      id: "10",
       name: "LoL -- High Elo Match EDA",
       url: "https://github.com/davidcamilo0710/LeagueOfLegendsAnalysis",
       description:
@@ -869,7 +890,7 @@ const projects = {
       ],
     },
     {
-      id: "10",
+      id: "11",
       name: "Portfolio Website",
       url: "https://github.com/davidcamilo0710/Portfolio",
       description:
@@ -894,7 +915,7 @@ const projects = {
       ],
     },
     {
-      id: "11",
+      id: "12",
       name: "Responsive Data Viz Dashboard",
       url:
         "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/CreatingaDashboardSuperStore/KPIDashboard",
@@ -908,7 +929,7 @@ const projects = {
       ],
     },
     {
-      id: "12",
+      id: "13",
       name: "IBM -- Winning space race",
       url: "https://github.com/davidcamilo0710/Applied_Data_Science_Capstone",
       description:
