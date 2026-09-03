@@ -13,17 +13,18 @@ const greeting = {
   title2: "David M.G.",
   logo_name: "david.mg()",
   full_name: "David Muñoz G",
-  subTitle: "Data Scientist, Back-end Developer, and Life Long Learner.",
+  subTitle:
+    "AI Engineer and Data Scientist. I build RAG systems and autonomous agents that automate real business processes.",
   resumeLink:
-    "https://drive.google.com/file/d/1WcPJQAfYGHXytVXVhizx0obCiJq-R8kD/view?usp=sharing",
-  mail: "mailto:im.davidcamilo0710@gmail.com",
+    "https://drive.google.com/file/d/14iGGqHvBIQ69BwNXMru8aDDBFkNTi8OM/view?usp=sharing",
+  mail: "mailto:davidcamilo0710@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/davidcamilo0710",
   linkedin: "https://www.linkedin.com/in/davidcamilo0710/",
-  gmail: "im.davidcamilo0710@gmail.com",
+  gmail: "davidcamilo0710@gmail.com",
   //twitter: "https://twitter.com/DavidCamilo_M",
   discord: "http://discordapp.com/users/611348105652207623",
 };
@@ -31,13 +32,13 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Data Science, AI & Analytics",
+      title: "Generative AI, Agents & Machine Learning",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Turning dirty and unstructured data into ready to use data for analytics",
-        "⚡ Extract insights and automate intelligent decision-making from business data, and other available sources",
-        "⚡ Creating dynamic dashboards, insightful reports, and compelling visualizations using Power BI, Looker Studio, and Tableau",
-        "⚡ Building Machine Learning and Deep Learning models for diverse use cases, and deploying them to production with MLOps tools and practices",
+        "⚡ Building RAG systems over a company's own documents and data, so answers are precise and traceable",
+        "⚡ Designing autonomous and multi-agent workflows that execute real business decisions, not just chat",
+        "⚡ Training and deploying machine learning models to production with MLOps practices",
+        "⚡ Turning raw and unstructured data into dashboards, reports and insights with Power BI, Looker Studio and Tableau",
       ],
       softwareSkills: [
         {
@@ -149,13 +150,13 @@ const skills = {
       ],
     },
     {
-      title: "Back-end Development",
+      title: "Data Engineering & Back-end",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Creating back-end applications using frameworks like Spring Boot and FastAPI",
-        "⚡ Integrating third-party services and APIs, such as AWS, Azure, and external REST APIs, for seamless functionality",
-        "⚡ Designing, optimizing, and managing complex database schemas to improve data retrieval, scalability, and performance",
-        "⚡ Building basic responsive website front-end using ReactJS",
+        "⚡ Designing ETL/ELT pipelines and cloud data architectures that keep data reliable and available",
+        "⚡ Building APIs and back-end services with FastAPI and Spring Boot to expose models and data",
+        "⚡ Designing and optimising database schemas for scalability, including vector stores with pgvector",
+        "⚡ Integrating third-party services and APIs across AWS and Azure",
       ],
       softwareSkills: [
         {
@@ -252,13 +253,13 @@ const skills = {
       ],
     },
     {
-      title: "Cloud, DevOps & Automation",
+      title: "Cloud, MLOps & Automation",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with continuous integration and continuous delivery",
-        "⚡ Automating workflows and orchestrating processes to improve efficiency and reliability across data and software pipelines",
+        "⚡ Deploying AI workloads on Azure OpenAI, Azure AI Foundry, Amazon Bedrock and SageMaker",
+        "⚡ Automating business processes end to end with n8n, with LLMs at the core of the decision",
+        "⚡ Containerising and orchestrating services with Docker, Kubernetes and Terraform",
+        "⚡ Setting up CI/CD so models and services ship continuously and reliably",
       ],
       softwareSkills: [
         {
@@ -352,6 +353,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Microsoft Certified: Azure Fundamentals",
+      subtitle: "- Certificate - 2026",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://www.credly.com/badges/e6321767-5b17-41f1-8a55-7be0e0cc0bab/linked_in_profile",
+      alt_name: "Microsoft",
+      color_code: "#D83B0199",
+    },
     {
       title: "Continuing Education in Leadership",
       subtitle: "- Certificate - 2025",
@@ -583,32 +593,32 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Research and Volunteership",
   description:
-    "Data Scientist with extensive experience in developing and implementing innovative solutions for data processing, analysis, and visualization. Skilled in descriptive, predictive, and prescriptive modeling, machine learning, artificial intelligence, MLOps, and Big Data. Proficient in Python, SQL, Java, cloud technologies (Azure, AWS), DevOps, and automation.",
+    "AI Engineer and Data Scientist. I design and ship production systems built on large language models: RAG architectures, autonomous agents, and multi-agent workflows that automate business processes end to end. A background in analytics, business intelligence, and data engineering brings those systems close to how each company actually operates, while MLOps practices on AWS and Azure keep them running in production.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
+          title: "Data Analyst",
+          company: "Servagro LTDA",
+          company_url: "https://seguridadsvg.com/",
+          logo_path: "servagro_logo.png",
+          duration: "Feb 2023 - Present",
+          location: "Popayán, Cauca, Colombia",
+          description:
+            "Design and lead the implementation of a proprietary platform that brings together per-area and per-process automations, RAG agents over internal documentation, decision-making agents, and a customer service and sales bot on the WhatsApp API, powering company-wide operations by saving hours of manual work and reducing errors. Led R&D projects across cybersecurity, workflow automation (n8n), and IT, forecasting models for key metrics and inventory, and custom developments on the Odoo ERP, improving company productivity and efficiency. Used SQL, Big Query, and Looker Studio to create dashboards, reports, and tools for all company departments, enabling effective KPI tracking and transforming Servagro into a data-driven organization.",
+          color: "#4285F4",
+        },
+        {
           title: "Data Scientist",
           company: "Skalo Tek",
           company_url: "https://www.skalotek.com/",
           logo_path: "skalotek_logo.png",
           duration: "Apr 2024 - Oct 2025",
-          location: "Bogotá DC, Colombia",
+          location: "Bogotá D.C., Colombia",
           description:
-            "Led a multidisciplinary team of analysts and data engineers to develop various projects, including cloud data architectures, process automation, advanced analytics, dashboards, prediction models, and natural language processing for large corporations in sectors such as legal services, insurance, investments, multinational food, manufacturing, and education. Built models to predict ICFES scores, judicial rulings, prices, and sales; conducted advanced segmentations and visualization using augmented reality. Implemented data-driven strategies to optimize processes, improve customer retention, manage risks through predictive analysis and scenarios, increase conversions, and contribute to financial growth. Collaborated in implementing data protection regulations, ensuring compliance with current Colombian laws.",
-          color: "#4285F4",
-        },
-        {
-          title: "Data Analyst and R&D Leader",
-          company: "Servagro LTDA",
-          company_url: "https://seguridadsvg.com/",
-          logo_path: "servagro_logo.png",
-          duration: "Feb 2023 - Present",
-          location: "Popayán-Cauca, Colombia",
-          description:
-            "Used SQL, Big Query, and Looker Studio to create dashboards, reports, and tools for all company departments, enabling effective KPI tracking and transforming Servagro into a data-driven organization. Conducted internal audits to ensure data quality and corrected large-scale errors. Led the innovation and development area, implementing technological solutions in cybersecurity, automation, and IT. Predicted key indicators and inventory metrics and directed the adoption of AI-based tools, improving the company's productivity and efficiency. Collaborated in implementing a DevOps environment using Digital Ocean, Git, Jenkins, JUnit, and New Relic.",
+            "Led a multidisciplinary team of analysts and engineers on data and artificial intelligence projects for large corporations across the legal, insurance, financial, construction, manufacturing, and education sectors, spanning cloud architecture, process automation, advanced analytics, dashboards, and predictive modeling. Developed generative AI solutions for corporate clients: RAG assistants that deliver precise information right when it is needed (case law for lawyers in hearings, policy terms for insurance sales teams, building codes and design parameters for a construction firm), plus conversational agents and LLM-based automations. Built predictive models for ICFES scores, judicial rulings, prices, and sales, plus customer segmentations that underpinned retention, risk management, and conversion strategies.",
           color: "#4285F4",
         },
         {
@@ -617,9 +627,9 @@ const experience = {
           company_url: "https://ipscambio.com",
           logo_path: "ipscambio_logo.png",
           duration: "Feb 2022 - Oct 2022",
-          location: "Popayán-Cauca, Colombia",
+          location: "Popayán, Cauca, Colombia",
           description:
-            "Redesigned and developed a website to showcase IPS Cambio’s commercial services and establish a strong online presence. Coordinated and executed the migration and centralization of corporate data in SAP, covering data extraction, cleaning, loading, and contributing to the system’s configuration and launch. Used SQL and Looker Studio to visualize and analyze accounting, operational, and customer data, providing key indicators, metrics, and strategic recommendations that optimized the company’s processes and profits.",
+            "Used SQL and Google Cloud Platform data services (BigQuery, Looker Studio) to visualize and analyze accounting, operational, and customer data, providing key indicators, metrics, and strategic recommendations that optimized the company’s processes and profits. Coordinated and executed the migration and centralization of corporate data into SAP, covering data extraction, cleaning, and loading, and contributing to the system's configuration and launch. Also designed and built the website through which the company presented its commercial services.",
           color: "#4285F4",
         },
         {
@@ -628,9 +638,9 @@ const experience = {
           company_url: "https://www.linkedin.com/company/ingetel/",
           logo_path: "ingetel_logo.png",
           duration: "Jul 2020 - Nov 2021",
-          location: "Cali-Valle del Cauca, Colombia",
+          location: "Cali, Valle del Cauca, Colombia",
           description:
-            "Used Python and Power BI to analyze and visualize accounting data. Additionally, analyzed factors influencing the cost of mobile antenna installations across Colombia. Created a supervised learning model to predict the installation cost of mobile antennas, deployed it as a REST API using Amazon SageMaker, and integrated it with the company's software. Designed and developed various back-end modules for the company’s website using Spring Boot and AWS.",
+            "Developed a supervised learning model to predict mobile antenna installation costs by department, exposed it as a REST API using Amazon SageMaker, and integrated it with the company's software. Analyzed and visualized accounting data with Python and Power BI, and identified the factors driving mobile antenna installation costs across Colombian departments. Designed and developed various back-end modules for the company's website using Spring Boot and AWS.",
           color: "#4285F4",
         },
       ],
@@ -639,15 +649,15 @@ const experience = {
       title: "Research",
       experiences: [
         {
-          title: "Machine Learning Developer",
+          title: "Machine Learning Developer (Intern)",
           company: "IEEE ComSoc UniCauca",
           company_url:
             "http://portal.unicauca.edu.co/portaleningles/news/comsocauca-research-seedbed-consolidated-dissemination-advances-telecommunications",
           logo_path: "comsoc_logo.png",
           duration: "Oct 2021 - Jul 2022",
-          location: "Popayán-Cauca, Colombia",
+          location: "Popayán, Cauca, Colombia",
           description:
-            "Created a Python, P4, and Machine Learning-based application to classify and route Internet traffic in real-time on the data plane of a Telecommunications network, significantly improving its performance. Generated, documented, and published knowledge related to the new P4 programming language for the advanced telecommunications services research line.",
+            "Developed a Python, P4, and Machine Learning-based application to classify and route Internet traffic in real time on the data plane of a telecommunications network, significantly improving its performance. Documented and shared the knowledge generated on P4, telecommunications, and artificial intelligence, work that led to an indexed publication in the journal Computer Networks (Elsevier).",
           color: "#4285F4",
         },
       ],
@@ -677,19 +687,43 @@ const contactPageData = {
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
-    link: "https://medium.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
 };
 
 const projects = {
   data: [
     {
       id: "0",
+      name: "World Cup 2026 Prediction",
+      url: "https://github.com/davidcamilo0710/world_cup_2026",
+      description:
+        "Prediction of the 2026 World Cup from historical international matches, team statistics, and squad potential, using feature engineering and machine learning models.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Jupyter Notebook",
+          iconifyClass: "logos-jupyter",
+        },
+        {
+          name: "Scikit-Learn",
+          iconifyClass: "devicon:scikitlearn",
+          style: {
+            color: "#fb9c35",
+          },
+        },
+        {
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
+          style: {
+            color: "#150458",
+          },
+        },
+      ],
+    },
+    {
+      id: "1",
       name: "P4Tree: a RF classifier for SDN",
       url: "https://github.com/davidcamilo0710/P4Tree",
       description:
@@ -720,7 +754,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "2",
       name: "World Cup QATAR 2022 Prediction",
       url: "https://github.com/davidcamilo0710/QATAR_2022_Prediction",
       description:
@@ -751,7 +785,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "3",
       name: "Routing elephants with RL",
       url: "https://github.com/davidcamilo0710/Routing_Reinforcement_Learning",
       description:
@@ -764,7 +798,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "4",
       name: "Deforest Amazonia",
       url: "https://github.com/davidcamilo0710/deforest_amazonia",
       description:
@@ -776,7 +810,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "5",
       name: "Contact Probability Predictor",
       url: "https://github.com/davidcamilo0710/contact_predictor",
       description:
@@ -789,7 +823,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "6",
       name: "Low Light Enhancer",
       url: "https://github.com/davidcamilo0710/low_light_enhancer",
       description:
@@ -801,7 +835,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "7",
       name: "Text Classification Comparison",
       url: "https://github.com/davidcamilo0710/text_classification_comparison",
       description:
@@ -814,7 +848,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "8",
       name: "NBA - Fourth Quarter Analysis",
       url: "https://github.com/davidcamilo0710/NBA_Fourth_Quarter_Analysis",
       description:
@@ -842,7 +876,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "9",
       name: "EDA on ResetStore-Mercadolibre Sales",
       url: "https://github.com/davidcamilo0710/Mercadolibre_Sales_EDA",
       description:
@@ -859,7 +893,7 @@ const projects = {
       ],
     },
     {
-      id: "9",
+      id: "10",
       name: "Google Playstore Apps",
       url:
         "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/GooglePlaystoreStoryboardingandStorytelling/GooglePlaystoreApps",
@@ -873,7 +907,7 @@ const projects = {
       ],
     },
     {
-      id: "10",
+      id: "11",
       name: "LoL -- High Elo Match EDA",
       url: "https://github.com/davidcamilo0710/LeagueOfLegendsAnalysis",
       description:
@@ -890,7 +924,7 @@ const projects = {
       ],
     },
     {
-      id: "11",
+      id: "12",
       name: "Portfolio Website",
       url: "https://github.com/davidcamilo0710/Portfolio",
       description:
@@ -915,7 +949,7 @@ const projects = {
       ],
     },
     {
-      id: "12",
+      id: "13",
       name: "Responsive Data Viz Dashboard",
       url:
         "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/CreatingaDashboardSuperStore/KPIDashboard",
@@ -929,7 +963,7 @@ const projects = {
       ],
     },
     {
-      id: "13",
+      id: "14",
       name: "IBM -- Winning space race",
       url: "https://github.com/davidcamilo0710/Applied_Data_Science_Capstone",
       description:

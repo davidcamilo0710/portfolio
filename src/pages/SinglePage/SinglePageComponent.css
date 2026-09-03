@@ -1,3 +1,11 @@
+/* Estilos de los componentes. Los @import deben ir primero: si no,
+   el navegador los descarta y se pierden estos estilos. */
+@import "../../pages/education/EducationComponent.css";
+@import "../../pages/experience/Experience.css";
+@import "../../pages/projects/Projects.css";
+@import "../../pages/contact/ContactComponent.css";
+
+
 .single-page-main {
   display: flex;
   flex-direction: column;
@@ -12,12 +20,6 @@
 .section:first-of-type {
   padding-top: 0;
 }
-
-/* Import existing styles from individual components */
-@import "../../pages/education/EducationComponent.css";
-@import "../../pages/experience/Experience.css";
-@import "../../pages/projects/Projects.css";
-@import "../../pages/contact/ContactComponent.css";
 
 /* Override any conflicting styles specific to single page layout */
 .basic-education,
