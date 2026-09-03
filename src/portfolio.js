@@ -603,7 +603,7 @@ const experience = {
           title: "Data Analyst",
           company: "Servagro LTDA",
           company_url: "https://seguridadsvg.com/",
-          logo_path: "servagro_logo.png",
+          logo_path: "Servagro_logo.png",
           duration: "Feb 2023 - Present",
           location: "Popayán, Cauca, Colombia",
           description:
