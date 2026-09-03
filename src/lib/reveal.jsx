@@ -25,9 +25,14 @@ export function Fade({
   delay = 0,
   distance = "40px",
   when = true,
-  ...props
+  top,
+  bottom,
+  left,
+  right,
+  style: estilo,
+  ...resto
 }) {
-  const offset = desplazamiento(props, distance);
+  const offset = desplazamiento({ top, bottom, left, right }, distance);
   return (
     <motion.div
       initial={{ opacity: 0, ...offset }}
@@ -38,18 +43,29 @@ export function Fade({
         delay: delay / 1000,
         ease: [0.25, 0.1, 0.25, 1],
       }}
-      style={{ willChange: "opacity, transform" }}
+      style={{ willChange: "opacity, transform", ...estilo }}
+      {...resto}
     >
       {when ? children : null}
     </motion.div>
   );
 }
 
-export function Flip({ children, duration = 1000, delay = 0, ...props }) {
-  const eje = props.left || props.right ? "rotateY" : "rotateX";
+export function Flip({
+  children,
+  duration = 1000,
+  delay = 0,
+  top,
+  bottom,
+  left,
+  right,
+  style: estilo,
+  ...resto
+}) {
+  const eje = left || right ? "rotateY" : "rotateX";
   return (
     <motion.div
-      initial={{ opacity: 0, [eje]: props.right || props.bottom ? -90 : 90 }}
+      initial={{ opacity: 0, [eje]: right || bottom ? -90 : 90 }}
       whileInView={{ opacity: 1, [eje]: 0 }}
       viewport={{ once: true, amount: 0.15 }}
       transition={{
@@ -57,7 +73,12 @@ export function Flip({ children, duration = 1000, delay = 0, ...props }) {
         delay: delay / 1000,
         ease: [0.25, 0.1, 0.25, 1],
       }}
-      style={{ transformPerspective: 1000, willChange: "opacity, transform" }}
+      style={{
+        transformPerspective: 1000,
+        willChange: "opacity, transform",
+        ...estilo,
+      }}
+      {...resto}
     >
       {children}
     </motion.div>

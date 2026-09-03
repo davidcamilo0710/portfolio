@@ -70,7 +70,7 @@
         ownKeys = ownKeys.concat(
           Object.getOwnPropertySymbols(source).filter(function (sym) {
             return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-          })
+          }),
         );
       }
 
@@ -113,7 +113,7 @@
       namespace.styles[prefix] = _objectSpread(
         {},
         namespace.styles[prefix] || {},
-        normalized
+        normalized,
       );
     }
     /**

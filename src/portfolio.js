@@ -895,8 +895,7 @@ const projects = {
     {
       id: "10",
       name: "Google Playstore Apps",
-      url:
-        "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/GooglePlaystoreStoryboardingandStorytelling/GooglePlaystoreApps",
+      url: "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/GooglePlaystoreStoryboardingandStorytelling/GooglePlaystoreApps",
       description:
         "Storyboarding and Storytelling in TableaU that provides intelligent recommendations for developing successful apps.",
       languages: [
@@ -951,8 +950,7 @@ const projects = {
     {
       id: "13",
       name: "Responsive Data Viz Dashboard",
-      url:
-        "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/CreatingaDashboardSuperStore/KPIDashboard",
+      url: "https://public.tableau.com/app/profile/david.camilo.mu.oz.garcia/viz/CreatingaDashboardSuperStore/KPIDashboard",
       description:
         "A beautiful and minimalist dashboard in Tableau, which allows to modify parameters to analyze the profit in sales data.",
       languages: [

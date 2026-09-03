@@ -6,8 +6,8 @@
   typeof exports === "object" && typeof module !== "undefined"
     ? factory(exports)
     : typeof define === "function" && define.amd
-    ? define(["exports"], factory)
-    : factory((global["fontawesome-free-conflict-detection"] = {}));
+      ? define(["exports"], factory)
+      : factory((global["fontawesome-free-conflict-detection"] = {}));
 })(this, function (exports) {
   "use strict";
 
@@ -54,7 +54,7 @@
         ownKeys = ownKeys.concat(
           Object.getOwnPropertySymbols(source).filter(function (sym) {
             return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-          })
+          }),
         );
       }
 
@@ -101,9 +101,8 @@
   var loaded = false;
 
   if (IS_DOM) {
-    loaded = (DOCUMENT.documentElement.doScroll
-      ? /^loaded|^c/
-      : /^loaded|^i|^c/
+    loaded = (
+      DOCUMENT.documentElement.doScroll ? /^loaded|^c/ : /^loaded|^i|^c/
     ).test(DOCUMENT.readyState);
     if (!loaded) DOCUMENT.addEventListener("DOMContentLoaded", listener);
   }
@@ -129,7 +128,7 @@
     if (conflictsCount > 0) {
       console.info(
         "%cConflict".concat(conflictsCount > 1 ? "s" : "", " found:"),
-        "color: darkred; font-size: large"
+        "color: darkred; font-size: large",
       );
       var data = {};
 
@@ -155,7 +154,7 @@
         "%cNo conflict"
           .concat(noConflictsCount > 1 ? "s" : "", " found with ")
           .concat(noConflictsCount == 1 ? "this" : "these", ":"),
-        "color: green; font-size: large"
+        "color: green; font-size: large",
       );
       var _data = {};
 
@@ -180,9 +179,9 @@
       console.info(
         "%cLeftovers--we timed out before collecting test results for ".concat(
           timeOutCount == 1 ? "this" : "these",
-          ":"
+          ":",
         ),
-        "color: blue; font-size: large"
+        "color: blue; font-size: large",
       );
       var _data2 = {};
 
@@ -206,14 +205,16 @@
     typeof window !== "undefined"
       ? window
       : typeof global !== "undefined"
-      ? global
-      : typeof self !== "undefined"
-      ? self
-      : {};
+        ? global
+        : typeof self !== "undefined"
+          ? self
+          : {};
 
   function createCommonjsModule(fn, module) {
     return (
-      (module = { exports: {} }), fn(module, module.exports), module.exports
+      (module = { exports: {} }),
+      fn(module, module.exports),
+      module.exports
     );
   }
 
@@ -259,7 +260,7 @@
       function md5cmn(q, a, b, x, s, t) {
         return safeAdd(
           bitRotateLeft(safeAdd(safeAdd(a, q), safeAdd(x, t)), s),
-          b
+          b,
         );
       }
       /**
@@ -336,7 +337,7 @@
 
       function binlMD5(x, len) {
         /* append padding */
-        x[len >> 5] |= 0x80 << len % 32;
+        x[len >> 5] |= 0x80 << (len % 32);
         x[(((len + 64) >>> 9) << 4) + 14] = len;
         var i;
         var olda;
@@ -438,7 +439,7 @@
         var length32 = input.length * 32;
 
         for (i = 0; i < length32; i += 8) {
-          output += String.fromCharCode((input[i >> 5] >>> i % 32) & 0xff);
+          output += String.fromCharCode((input[i >> 5] >>> (i % 32)) & 0xff);
         }
 
         return output;
@@ -463,7 +464,7 @@
         var length8 = input.length * 8;
 
         for (i = 0; i < length8; i += 8) {
-          output[i >> 5] |= (input.charCodeAt(i / 8) & 0xff) << i % 32;
+          output[i >> 5] |= (input.charCodeAt(i / 8) & 0xff) << (i % 32);
         }
 
         return output;
@@ -689,7 +690,7 @@
     var linkTags = Array.from(DOCUMENT.getElementsByTagName("link")).filter(
       function (t) {
         return !t.hasAttribute(detectionIgnoreAttr);
-      }
+      },
     );
     var styleTags = Array.from(DOCUMENT.getElementsByTagName("style")).filter(
       function (t) {
@@ -704,16 +705,16 @@
           t.innerText.match(
             new RegExp(
               "svg:not\\(:root\\)\\.".concat(
-                WINDOW.FontAwesomeConfig.replacementClass
-              )
-            )
+                WINDOW.FontAwesomeConfig.replacementClass,
+              ),
+            ),
           )
         ) {
           return false;
         }
 
         return true;
-      }
+      },
     );
 
     function runDiag(scriptOrLinkTag, md5) {
@@ -722,7 +723,7 @@
 
       diagFrame.setAttribute(
         "style",
-        "visibility: hidden; position: absolute; height: 0; width: 0;"
+        "visibility: hidden; position: absolute; height: 0; width: 0;",
       );
       var testIconId = "fa-test-icon-" + md5;
       var iTag = DOCUMENT.createElement("i");
@@ -741,7 +742,7 @@
         nodeUnderTestId,
         testIconId,
         md5,
-        parentOrigin
+        parentOrigin,
       ) {
         parent.FontAwesomeDetection.__pollUntil({
           fn: function fn() {
@@ -770,7 +771,7 @@
                 tagName: node.tagName,
                 md5: md5,
               },
-              parentOrigin
+              parentOrigin,
             );
           })
           .catch(function (e) {
@@ -786,7 +787,7 @@
                   tagName: node.tagName,
                   md5: md5,
                 },
-                parentOrigin
+                parentOrigin,
               );
             } else {
               console.error(e);
@@ -872,7 +873,7 @@
       var diagScriptFun = function diagScriptFun(
         nodeUnderTestId,
         md5,
-        parentOrigin
+        parentOrigin,
       ) {
         parent.FontAwesomeDetection.__pollUntil({
           fn: function fn() {
@@ -890,7 +891,7 @@
                 tagName: scriptNode.tagName,
                 md5: md5,
               },
-              parentOrigin
+              parentOrigin,
             );
           })
           .catch(function (e) {
@@ -905,7 +906,7 @@
                   tagName: scriptNode.tagName,
                   md5: md5,
                 },
-                parentOrigin
+                parentOrigin,
               );
             } else {
               console.error(e);
@@ -991,41 +992,41 @@
     if (testCount === 0) {
       console.info("%cAll Good!", "color: green; font-size: large");
       console.info(
-        "We didn't find anything that needs testing for conflicts. Ergo, no conflicts."
+        "We didn't find anything that needs testing for conflicts. Ergo, no conflicts.",
       );
     } else {
       console.info("Testing ".concat(testCount, " possible conflicts."));
       console.info(
         "We'll wait about ".concat(
           Math.round(WINDOW.FontAwesomeDetection.timeout / 10) / 100,
-          " seconds while testing these and\n"
+          " seconds while testing these and\n",
         ) +
           "then up to another ".concat(
             Math.round(
-              WINDOW.FontAwesomeDetection.resultsCollectionMaxWait / 10
+              WINDOW.FontAwesomeDetection.resultsCollectionMaxWait / 10,
             ) / 100,
-            " to allow the browser time\n"
+            " to allow the browser time\n",
           ) +
-          "to accumulate the results. But we'll probably be outta here way before then.\n\n"
+          "to accumulate the results. But we'll probably be outta here way before then.\n\n",
       );
       console.info(
-        "You can adjust those durations by assigning values to these attributes on the <script> element that loads this detection:"
+        "You can adjust those durations by assigning values to these attributes on the <script> element that loads this detection:",
       );
       console.info(
         "\t%c".concat(
           timeoutAttr,
-          "%c: milliseconds to wait for each test before deciding whether it's a conflict."
+          "%c: milliseconds to wait for each test before deciding whether it's a conflict.",
         ),
         "font-weight: bold;",
-        "font-size: normal;"
+        "font-size: normal;",
       );
       console.info(
         "\t%c".concat(
           resultsCollectionMaxWaitAttr,
-          "%c: milliseconds to wait for the browser to accumulate test results before giving up."
+          "%c: milliseconds to wait for the browser to accumulate test results before giving up.",
         ),
         "font-weight: bold;",
-        "font-size: normal;"
+        "font-size: normal;",
       );
       pollUntil({
         // Give this overall timer a little extra cushion
@@ -1055,7 +1056,7 @@
         .catch(function (e) {
           if (e === "timeout") {
             console.info(
-              "TIME OUT! We waited until we got tired. Here's what we found:"
+              "TIME OUT! We waited until we got tired. Here's what we found:",
             );
             setDoneResults({
               nodesTested: nodesTested,

@@ -30,10 +30,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="contact-image-div">
-          <img
-            alt=""
-            src={imagen("contactMail.png")}
-          ></img>
+          <img alt="" src={imagen("contactMail.png")}></img>
         </div>
       </div>
     </div>

@@ -17,5 +17,5 @@ createRoot(document.getElementById("root")).render(
         <App />
       </BaseProvider>
     </StyletronProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

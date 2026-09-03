@@ -55,7 +55,9 @@ export function CursorProvider({
     };
 
     const sobreClicable = (e) => {
-      const clicable = e.target.closest("a, button, [role='button'], input, textarea, select");
+      const clicable = e.target.closest(
+        "a, button, [role='button'], input, textarea, select",
+      );
       if (anillo.current) {
         anillo.current.style.width = `${clicable ? ringSize * 1.6 : ringSize}px`;
         anillo.current.style.height = `${clicable ? ringSize * 1.6 : ringSize}px`;
@@ -96,7 +98,8 @@ export function CursorProvider({
               width: ringSize,
               height: ringSize,
               border: `1.5px solid ${color}`,
-              transition: "width .18s ease, height .18s ease, opacity .18s ease",
+              transition:
+                "width .18s ease, height .18s ease, opacity .18s ease",
             }}
           />
           <div

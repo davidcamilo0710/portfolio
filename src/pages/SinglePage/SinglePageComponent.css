@@ -5,7 +5,6 @@
 @import "../../pages/projects/Projects.css";
 @import "../../pages/contact/ContactComponent.css";
 
-
 .single-page-main {
   display: flex;
   flex-direction: column;

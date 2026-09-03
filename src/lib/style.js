@@ -33,7 +33,10 @@ const guion = (p) =>
 const declaraciones = (obj) =>
   Object.entries(obj)
     .filter(([, v]) => v !== undefined && v !== null && typeof v !== "object")
-    .map(([k, v]) => `${guion(k)}:${typeof v === "number" && !/^(zIndex|opacity|fontWeight|lineHeight|flex|order)$/.test(k) ? `${v}px` : v}`)
+    .map(
+      ([k, v]) =>
+        `${guion(k)}:${typeof v === "number" && !/^(zIndex|opacity|fontWeight|lineHeight|flex|order)$/.test(k) ? `${v}px` : v}`,
+    )
     .join(";");
 
 export function style(reglas) {

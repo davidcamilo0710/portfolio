@@ -16,8 +16,14 @@ function CertificationCard(props) {
   });
 
   return (
-    <Fade bottom duration={2000} distance="20px">
-      <div className="cert-card" {...styles}>
+    <Fade
+      bottom
+      duration={2000}
+      distance="20px"
+      className="cert-card"
+      {...styles}
+    >
+      <>
         <div className="content">
           <a
             href={certificate.certificate_link}
@@ -53,7 +59,7 @@ function CertificationCard(props) {
             {certificate.subtitle}
           </h3>
         </div>
-      </div>
+      </>
     </Fade>
   );
 }

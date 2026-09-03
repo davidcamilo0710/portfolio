@@ -7,7 +7,7 @@
  */
 const modulos = import.meta.glob(
   "../assests/images/*.{png,jpg,jpeg,gif,svg,webp}",
-  { eager: true, query: "?url", import: "default" }
+  { eager: true, query: "?url", import: "default" },
 );
 
 // se indexa en minúsculas: el sistema de archivos de macOS no distingue
@@ -16,7 +16,7 @@ const porNombre = Object.fromEntries(
   Object.entries(modulos).map(([ruta, url]) => [
     ruta.split("/").pop().toLowerCase(),
     url,
-  ])
+  ]),
 );
 
 export function imagen(nombre) {
